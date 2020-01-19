@@ -1,0 +1,5 @@
+Connect-PowerBIServiceAccount   
+
+Export-PowerBIReport -Id e1b2f91c-0fb6-46e6-be31-6b71b0cca9c5 -OutFile C:\Report\SampleMyWS.pbix
+
+Export-PowerBIReport -Id c77c9126-0864-4e5d-bf02-86f8ed8be649 -OutFile C:\Report\SampleBlogWS.pbix -WorkspaceId 4885ac3e-9ba8-4a34-80ba-2d74a89c749d

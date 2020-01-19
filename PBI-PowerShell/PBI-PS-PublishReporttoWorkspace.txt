@@ -1,0 +1,3 @@
+New-PowerBIReport -Path C:\Report\SamplePBIREport.pbix -Name 'Sample Report' -WorkspaceId 4885ac3e-9ba8-4a34-80ba-2d74a89c749d
+
+New-PowerBIReport -Path C:\Report\SamplePBIREport.pbix -Name 'New Report' -WorkspaceId 4885ac3e-9ba8-4a34-80ba-2d74a89c749d
