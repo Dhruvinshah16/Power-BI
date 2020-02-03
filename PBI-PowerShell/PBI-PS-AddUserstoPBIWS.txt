@@ -1,0 +1,1 @@
+Add-PowerBIWorkspaceUser -Scope Organization -Id ef2d7e7b-9f0b-4926-9861-e4d3738f84ce -UserEmailAddress AdeleV@dshah27.onmicrosoft.com -AccessRight Admin
