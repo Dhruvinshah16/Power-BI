@@ -1,0 +1,3 @@
+New-PowerBIWorkspace -Name "New Workspace"
+
+Set-PowerBIWorkspace -Scope Organization -Id "ab1d0719-5935-4745-8ef0-90519d18bfef" -Name "Power BI WS with PS" -Description "Test WS for PS"

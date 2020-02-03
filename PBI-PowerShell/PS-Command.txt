@@ -1,0 +1,12 @@
+Add-PowerBIWorkspaceUser -Scope Organization -Id ef2d7e7b-9f0b-4926-9861-e4d3738f84ce -UserEmailAddress AdeleV@dshah27.onmicrosoft.com -AccessRight Admin
+
+Remove-PowerBIWorkspaceUser -Scope Organization -Id ef2d7e7b-9f0b-4926-9861-e4d3738f84ce -UserEmailAddress AdeleV@dshah27.onmicrosoft.com
+
+New-PowerBIWorkspace -Name "New Workspace"
+
+Set-PowerBIWorkspace -Scope Organization -Id "ab1d0719-5935-4745-8ef0-90519d18bfef" -Name "Power BI WS with PS" -Description "Test WS for PS"
+
+convertTimeZone(variables('vCreatedDate'),'UTC','India Standard Time')
+
+https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values
+https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
